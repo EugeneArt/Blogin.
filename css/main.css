@@ -1,0 +1,235 @@
+
+html, body{
+    height: 100%;
+
+	position: relative;
+	margin: 0 auto;
+}
+
+/* Head */
+
+.header{
+    position: relative;
+    height: 130px;
+    border-bottom: 5px solid black;
+    
+}
+.header-container{
+    width: 1000px;
+    height: 130px;
+    font-family: Lato;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    margin: 0 auto;
+    
+}
+
+.header-logo{
+    margin-top: 40px;
+    float: left;
+
+}
+.header-logo span{
+    color:  #58c939;
+}
+/* Menu */
+
+.menu-nav{
+    list-style: none;
+    border-right: 1px solid black;
+    margin: 0;
+    float: right;
+    
+}
+.menu-nav li{
+    float: left;
+
+    
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 1px 0px #1e1e1e;
+    border-left: 1px solid black;
+    padding: 56px 25px;
+}
+.menu-nav li a{
+    
+    color:#ffffff;
+    text-decoration: none;
+    padding: 45px 20px;
+}
+.menu-nav li a:hover {
+    color: #58c93a;
+    
+}
+ul.menu-nav li.active {
+    border-bottom: 4px solid #58c93a;
+}
+ul.menu-nav li.active a{
+     color: #58c93a;
+}
+
+/* Contain */
+.posts{
+    margin: 0 auto;
+    margin-bottom: -1px;
+    width: 1000px;
+    min-height: 60%;
+    border: 1px solid silver;
+}
+.posts-item{
+    margin: 60px 0;
+}
+.posts-item-picture{
+    float: left;
+    padding: 5px 0;
+}
+.posts-item-title{
+    margin: 0 20px 40px 500px;
+    font-family: Lato;
+    color:  #4f4e4e;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+.posts-item-title_description{
+    height: 160px;
+    width: 90%;
+    overflow: hidden;
+    position:relative;
+    line-height: 20px;
+    
+    margin-top: 25px;
+    color:  #606060;
+    font-size: 16px;
+    font-weight: 400;
+
+    text-align: left;
+}
+.posts-item-title_description:after{
+    content: '...';
+    position: absolute;
+}
+.posts-item-button a.button{
+    border: 1px solid silver; 
+    border-radius: 30px;
+    padding: 5px 15px; 
+    text-decoration: none; 
+ 
+    font-family: Lato;
+    color:  #c2c1c1;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+}
+.posts-item-button a.button:hover{
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #58c93a;
+    background-color:  #ffffff;
+    color:#58c93a;
+    
+}
+.posts-item-button a.button:hover:after{
+    content: ' \2192';
+}
+.posts-footer{
+    border-top: 1px solid silver;
+    height: 55px;
+    
+    font-family: Lato;
+    color:  #818181;
+    font-size: 18px;
+    font-weight: 700;
+}
+.posts-footer-nav{
+   padding: 15px 22px;
+   cursor: pointer;
+}
+.posts-footer__previous{
+    float:left;
+}
+.posts-footer__next{
+    float: right;
+}
+/*Footer */
+.footer{
+    position:relative;
+
+    height: 315px;
+    width: 100%;
+    
+    background-color:  #f8f8f8;
+    border: 1px solid silver;
+}
+.footer-logo{
+    padding-top: 50px;
+    
+    font-family: Lato;
+    color:  #292929;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-logo span{
+    color:#58c939;;
+}
+.footer-logo-reclame{
+    margin-top: 40px;
+    
+    font-family: Lato;
+    color:  #a6a6a6;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+.foter-social{
+  margin-top: 40px;
+
+}
+.foter-icon{
+    display:inline-block;
+    background-color:  #e5e5e5;
+    width: 40px;
+    height: 40px;
+    text-decoration:none;
+    line-height: 32px;
+    text-align: center;
+    transition: all .5s;
+}
+ a.foter-icon:hover {
+    background-color: #516fad;
+}
+
+/* ICON */
+.icon{
+    font-size: 0;
+    display:inline-block;
+    vertical-align: middle;
+}
+.icon_facebook{
+    background-image: url('../img/F.png');
+    width: 8px;
+    height: 14px;
+}
+.icon_twiter{
+    background-image: url('../img/L.png');
+    width: 16px;
+    height: 12px;
+}
+.icon_Be{
+    background-image: url('../img/E.png');
+    width: 16px;
+    height: 11px;
+}
+.icon_circle{
+    background-image: url('../img/D.png');
+    width: 16px;
+    height: 11px;
+}
